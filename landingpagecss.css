@@ -1,0 +1,15 @@
+* {
+    border: 2px solid black;
+}
+.top {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+}
+span {
+    display: flex;
+    flex-flow: row;
+    max-width: 100px;
+    justify-content: flex-end;
+}
