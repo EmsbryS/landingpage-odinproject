@@ -1,15 +1,37 @@
 * {
     border: 2px solid black;
 }
-.top {
+.top-header {
     display: flex;
-    
-    flex-direction: row;
-    justify-content: flex-start;
-}
-span {
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy; 
+    padding: 20px 60px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
     display: flex;
-    flex-flow: row;
-    max-width: 100px;
-    justify-content: flex-end;
-}
+    gap: 24px;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .front-page {
+    display: flex;
+    background-color: navy;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
